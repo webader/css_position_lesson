@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow:  hidden;
+    
+}
+
+.main-header {
+    background: url("../img/bg.png") no-repeat;
+    background-size: cover;
+    min-height: 817px;
+    border-top: 40px solid #af2024;    
+    /*border-bottom: 10em solid #af2024;*/
+}
+
+
+
+.container {
+    margin: auto;
+    max-width: 960px;    
+}
+
+.logo {
+    margin: 20px 0;
+    
+}
+
+/* .line-scale {
+    
+    background-color: #fff;
+    display: block;    
+    bottom: 53%;
+    left: 24% + 5px;   
+    min-height: 184px;
+    width: 710px;
+} */
+.red {
+    position: relative;
+    min-height: 5vh;
+    background-color: #3f0002;
+}
+
+.dark {
+    background-color: #000;
+    position: relative;
+    bottom: 0;
+
+    width: 100%;
+    z-index: 1;
+}
+
+
+body {
+    background-color: #af2024;
+}
+
+.video-card {    
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    /* transform: translate(-50%, -50%); */
+    max-width: 710px;
+    background-color: #ffffff;
+    z-index: 2;
+}
+
+.video-title {
+    background-color: #af2024;
+    padding: 30px 20px;
+    font-family: 'Arvo', serif;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 22px;
+    color: white;
+}
+
+.wrapper {
+    padding: 0 60px;
+    max-width: 560px;
+    margin: auto;
+}
+
+.movie {
+    width: 100%;
+    height: 345px;
+    background-color: #e7e7e7;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.movie__btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+
+.fa-play {
+    font-size: 50px;
+    color: #98161b;
+}
+
+.movie__title {
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #98161b;
+    margin-bottom: 5px;
+}
+
+.movie__dot {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #98161b;
+    margin-bottom: 10px;
+}
+
+.movie__title span {
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #a5a5a5;
+}
+
+.movie__text {
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #98161b;
+}
+
+.social-fix {
+    position: fixed;
+    right: 0;
+    top: 25%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    z-index: 2;
+}
+
+.soc {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+
+.fa-facebook-f {
+    font-size: 28px;
+    padding: 7px 15px;
+    background-color: #3f0002;
+}
+
+.fa-twitter {
+    background-color: #af2024;
+    font-size: 28px;
+    padding: 7px 10px;
+}
+
+
+
